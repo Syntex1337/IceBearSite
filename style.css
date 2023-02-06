@@ -14,14 +14,6 @@
     font-family: Clean1;
     src: url(/assets/fonts/Clean1.ttf);
   }
-  body { 
-    font-family: var(--font); 
-    background-color: var(--bg); 
-    color: #fff; 
-    margin: 0; 
-    padding: 0; 
-    text-align: center;
-} 
 .headtittle {
     color: white;
     font-family: Clean2;
@@ -54,21 +46,13 @@
     align-items: center; 
     margin-top: 20px;
 } 
-
 .topicon { 
-    display: flex; 
-    margin-left: 30px;
-    filter: contrast(150%);
+  display: flex; 
+  margin-left: 30px;
+  filter: contrast(150%);
 } 
-
 .discord { 
     margin-right: 50px;
-} 
-
-.topdiscord { 
-    text-decoration: none; 
-    color: #888;
-    text-shadow: 0px 0px 10px #fff;
 } 
 .navtxt{
   margin-left: 20px;
@@ -153,4 +137,139 @@
 .sitedevtxt{
   font-family: clean2;
   text-shadow: 0px 0px 10px #ffffff;
+}
+.topinfo{
+  text-decoration: none; 
+  color: #888;
+  text-shadow: 0px 0px 10px #fff;
+  margin-left: 10px;
+}
+.topinfo:hover{
+  text-decoration: none; 
+  color: #797373;
+  text-shadow: 0px 0px 10px #fff;
+  margin-left: 10px;
+}
+.topdiscord { 
+  text-decoration: none; 
+  color: #888;
+  text-shadow: 0px 0px 10px #fff;
+} 
+.topdiscord:hover{
+  text-decoration: none; 
+  color: #797373;
+  text-shadow: 0px 0px 10px #fff;
+  margin-left: 10px;
+}
+.aboutus{
+  text-shadow: 0px 0px 10px #fff;
+  font-size: 70px;
+  font-family: clean2;
+}
+.card-holder { 
+  margin-top: 28vh;
+} 
+
+body { 
+  font-family: var(--font); 
+  background-color: var(--bg); 
+  color: #fff; 
+  margin: 0; 
+  padding: 0; 
+  text-align: center;
+} 
+
+:root { 
+  --gradient-txt: linear-gradient(90deg, #9b94fd 15.02%, #6a79fd 88.27%); 
+  --bg: #171616; 
+  --card-bg: rgba(0, 0, 0, 0.17); 
+  --card-grey: #888; 
+  --font: "Manrope", sans-serif; 
+  scroll-behavior: smooth;
+} 
+
+.cards { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+} 
+
+.card { 
+  background-color: var(--card-bg); 
+  padding: 20px; 
+  border-radius: 20px; 
+  margin-bottom: 20px; 
+  width: 300px; 
+  margin: 10px;
+  font-family: Clean2;
+} 
+
+.grey-txt { 
+  color: var(--card-grey); 
+  font-size: 15px;
+} 
+.grey-txt:hover{
+  text-shadow: 0 0 10px white;
+}
+
+span { 
+  font-weight: 900; 
+  background: var(--gradient-txt); 
+  -webkit-background-clip: text; 
+  color: transparent;
+} 
+.updatestxt{
+  text-shadow: 0 0 10px rgb(17, 0, 255);
+}
+.updatestxt:hover{
+  color: rgb(59, 59, 250);
+  background: repeating-linear-gradient(-90deg,rgb(36, 112, 226) 0%, rgb(63, 99, 218) 7.14%, rgb(58, 84, 230) 14.28%, rgb(65, 101, 221) 21.42%, rgb(45, 71, 218) 28.56%, blue 35.7%, rgb(73, 43, 206) 42.84%, rgb(49, 86, 250) 50%);
+  background-size:500vw 910vw; 
+  -webkit-animation:'slide' 15s infinite linear forwards;
+  animation:'slide' 15s infinite linear forwards;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation:'slide' 15s infinite linear forwards;
+  animation:'slide' 30s infinite ease forwards;
+  font-size: 35px;
+  text-shadow: 0px 0px 10px #483cee; 
+  filter: contrast(150%);
+}
+.bypasstxt{
+  text-shadow: 0 0 10px rgb(17, 0, 255);
+}
+.bypasstxt:hover{
+  color: rgb(59, 59, 250);
+  background: repeating-linear-gradient(-90deg,rgb(36, 112, 226) 0%, rgb(63, 99, 218) 7.14%, rgb(58, 84, 230) 14.28%, rgb(65, 101, 221) 21.42%, rgb(45, 71, 218) 28.56%, blue 35.7%, rgb(73, 43, 206) 42.84%, rgb(49, 86, 250) 50%);
+  background-size:500vw 910vw; 
+  -webkit-animation:'slide' 15s infinite linear forwards;
+  animation:'slide' 15s infinite linear forwards;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation:'slide' 15s infinite linear forwards;
+  animation:'slide' 30s infinite ease forwards;
+  font-size: 35px;
+  text-shadow: 0px 0px 10px #483cee; 
+  filter: contrast(150%);
+}
+.visualstxt{
+  text-shadow: 0 0 10px rgb(17, 0, 255);
+}
+.visualstxt:hover{
+  color: rgb(59, 59, 250);
+  background: repeating-linear-gradient(-90deg,rgb(36, 112, 226) 0%, rgb(63, 99, 218) 7.14%, rgb(58, 84, 230) 14.28%, rgb(65, 101, 221) 21.42%, rgb(45, 71, 218) 28.56%, blue 35.7%, rgb(73, 43, 206) 42.84%, rgb(49, 86, 250) 50%);
+  background-size:500vw 910vw; 
+  -webkit-animation:'slide' 15s infinite linear forwards;
+  animation:'slide' 15s infinite linear forwards;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation:'slide' 15s infinite linear forwards;
+  animation:'slide' 30s infinite ease forwards;
+  font-size: 35px;
+  text-shadow: 0px 0px 10px #483cee; 
+  filter: contrast(150%);
 }
