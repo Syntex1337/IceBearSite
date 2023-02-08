@@ -8,11 +8,11 @@
 }
 @font-face {
     font-family: Clean2;
-    src: url(/assets/fonts/Clean2.otf);
+    src: url(https://github.com/Syntex1337/IceBearSite/raw/main/assets/fonts/Clean1.ttf);
   }
   @font-face {
     font-family: Clean1;
-    src: url(/assets/fonts/Clean1.ttf);
+    src: url(https://github.com/Syntex1337/IceBearSite/raw/main/assets/fonts/Clean1.ttf);
   }
 .headtittle {
     color: white;
